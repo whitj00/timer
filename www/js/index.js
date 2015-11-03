@@ -118,14 +118,14 @@ $(document).ready(function(){
 
 function setAffPrepTime(t) {
     $("#timer").text(secondsTimeSpanToHMS(t));
-    $("#APREP").text("AFF PREP (" + secondsTimeSpanToHMS(t) + ")")
+    $("#APREP").text("PREP (" + secondsTimeSpanToHMS(t) + ")")
     currentTime = t;
     affprep = t;
 }
 
 function setNegPrepTime(t) {
     $("#timer").text(secondsTimeSpanToHMS(t));
-    $("#NPREP").text("NEG PREP (" + secondsTimeSpanToHMS(t) + ")")
+    $("#NPREP").text("PREP (" + secondsTimeSpanToHMS(t) + ")")
     currentTime = t;
     negprep = t;
 }
