@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/material.min.css">
+        <title>Timer</title>
+    </head>
+    <body>
+        <div id="wrap">
+        <div class="app">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 row">
+                        <h1 id="timer" style="font-size: 70pt">0:00</h1>
+                    </div>
+                    <div class="container">
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group btn-group-lg btn-group-justified btn-group-fill-height">
+                                <a href="#" id="AC" class="btn btn-lg  btn-material-light-blue">AC</a>
+                                <a href="#" id="1AR" class="btn btn-lg  btn-material-light-blue">1AR</a>
+                                <a href="#" id="2AR" class="btn btn-lg  btn-material-light-blue">2AR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group btn-group-lg btn-group-justified btn-group-fill-height">
+                                <a href="#" id="CX" class="btn btn-lg  btn-material-light-blue">CX</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group btn-group-lg btn-group-justified btn-group-fill-height">
+                                <a href="javascript:void(0)" id="NC" class="btn btn-lg  btn-material-light-blue">NC</a>
+                                <a href="javascript:void(0)" id="2NR" class="btn btn-lg  btn-material-light-blue">2NR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group btn-group-lg btn-group-justified btn-group-fill-height">
+                                <a href="#" id="APREP" class="btn btn-lg  btn-material-light-blue">AFF PREP (4:00)</a>
+                                <a href="#" id="NPREP" class="btn btn-lg  btn-material-light-blue">NEG PREP (4:00)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group btn-group-lg btn-group-justified btn-group-fill-height-spec">
+                                <a href="#" id="START" class="btn btn-lg  btn-material-light-blue">START</a>
+                                <a href="#" id="STOP" class="btn btn-lg  btn-material-light-blue">STOP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="footer">
+            <div class="container">
+                <p class="muted credit">Made by Whit Jackson</p>
+            </div>
+        </div>
+        </div>
+
+        
+        <script src="js/fastclick.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/material.js"></script>
+    </body>
+</html>
