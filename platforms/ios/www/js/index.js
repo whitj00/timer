@@ -41,6 +41,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+	window.plugins.insomnia.keepAwake();
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
@@ -118,14 +119,14 @@ $(document).ready(function(){
 
 function setAffPrepTime(t) {
     $("#timer").text(secondsTimeSpanToHMS(t));
-    $("#APREP").text("AFF PREP (" + secondsTimeSpanToHMS(t) + ")")
+    $("#APREP").text("PREP (" + secondsTimeSpanToHMS(t) + ")")
     currentTime = t;
     affprep = t;
 }
 
 function setNegPrepTime(t) {
     $("#timer").text(secondsTimeSpanToHMS(t));
-    $("#NPREP").text("NEG PREP (" + secondsTimeSpanToHMS(t) + ")")
+    $("#NPREP").text("PREP (" + secondsTimeSpanToHMS(t) + ")")
     currentTime = t;
     negprep = t;
 }

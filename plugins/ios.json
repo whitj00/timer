@@ -28,10 +28,13 @@
         }
     },
     "installed_plugins": {
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "me.whitjack.debatetime"
+        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "me.whitjack.debatetime"
         },
-        "cordova-plugin-splashscreen": {
+        "nl.x-services.plugins.insomnia": {
             "PACKAGE_NAME": "me.whitjack.debatetime"
         }
     },

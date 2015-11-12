@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the 'debatetimer' target in the 'debatetimer' project
+// Prefix header for all source files of the 'DebateTimer' target in the 'DebateTimer' project
 //
 
 #ifdef __OBJC__
